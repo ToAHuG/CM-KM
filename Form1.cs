@@ -29,6 +29,18 @@ namespace CM_KM
             txtFt.Text = string.Format("{0:0.##########}", douCM / 30.48);
             txtYard.Text = string.Format("{0:0.##########}", douCM / 91.44);
         }
+
+        private void btnAllClear_Click(object sender, EventArgs e)
+        
+        {
+            // 給予每一個輸入文字框一個「空字串」
+            txtCM.Text = "";
+            txtM.Text = "";
+            txtKM.Text = "";
+            txtIn.Text = "";
+            txtFt.Text = "";
+            txtYard.Text = "";
+        }
     }
-    }
+}
     
