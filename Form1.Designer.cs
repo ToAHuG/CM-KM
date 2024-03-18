@@ -1,4 +1,6 @@
-﻿namespace CM_KM
+﻿using System;
+
+namespace CM_KM
 {
     partial class Form1
     {
@@ -131,6 +133,7 @@
             this.txtCM.Name = "txtCM";
             this.txtCM.Size = new System.Drawing.Size(88, 25);
             this.txtCM.TabIndex = 9;
+            this.txtCM.KeyUp += new System.Windows.Forms.KeyEventHandler(this.txtCM_KeyUp);
             // 
             // txtM
             // 
@@ -192,6 +195,11 @@
             this.ResumeLayout(false);
             this.PerformLayout();
 
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+            throw new NotImplementedException();
         }
 
         #endregion
