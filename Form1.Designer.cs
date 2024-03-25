@@ -134,6 +134,7 @@ namespace CM_KM
             this.txtCM.Name = "txtCM";
             this.txtCM.Size = new System.Drawing.Size(88, 25);
             this.txtCM.TabIndex = 9;
+            this.txtCM.TextChanged += new System.EventHandler(this.txtCM_TextChanged);
             this.txtCM.KeyUp += new System.Windows.Forms.KeyEventHandler(this.txtCM_KeyUp);
             // 
             // txtM
