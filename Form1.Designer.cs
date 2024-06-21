@@ -143,6 +143,8 @@ namespace CM_KM
             this.txtM.Name = "txtM";
             this.txtM.Size = new System.Drawing.Size(88, 25);
             this.txtM.TabIndex = 10;
+            this.txtM.TextChanged += new System.EventHandler(this.txtM_TextChanged);
+            this.txtM.KeyUp += new System.Windows.Forms.KeyEventHandler(this.txtM_KeyUp);
             // 
             // txtKM
             // 
@@ -150,6 +152,7 @@ namespace CM_KM
             this.txtKM.Name = "txtKM";
             this.txtKM.Size = new System.Drawing.Size(88, 25);
             this.txtKM.TabIndex = 11;
+            this.txtKM.KeyUp += new System.Windows.Forms.KeyEventHandler(this.txtKM_KeyUp);
             // 
             // txtYard
             // 
@@ -157,6 +160,7 @@ namespace CM_KM
             this.txtYard.Name = "txtYard";
             this.txtYard.Size = new System.Drawing.Size(88, 25);
             this.txtYard.TabIndex = 12;
+            this.txtYard.KeyUp += new System.Windows.Forms.KeyEventHandler(this.txtYard_KeyUp);
             // 
             // txtIn
             // 
@@ -164,6 +168,7 @@ namespace CM_KM
             this.txtIn.Name = "txtIn";
             this.txtIn.Size = new System.Drawing.Size(88, 25);
             this.txtIn.TabIndex = 12;
+            this.txtIn.KeyUp += new System.Windows.Forms.KeyEventHandler(this.txtIn_KeyUp);
             // 
             // txtFt
             // 
@@ -171,6 +176,7 @@ namespace CM_KM
             this.txtFt.Name = "txtFt";
             this.txtFt.Size = new System.Drawing.Size(88, 25);
             this.txtFt.TabIndex = 13;
+            this.txtFt.KeyUp += new System.Windows.Forms.KeyEventHandler(this.txtFt_KeyUp);
             // 
             // Form1
             // 
